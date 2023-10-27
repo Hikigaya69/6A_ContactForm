@@ -1,0 +1,59 @@
+body{
+    background-image: url(keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container{
+background-image: url(im.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+max-width: 400px;
+margin: 10% auto;
+padding: 20px;
+background-color: whitesmoke;
+border-radius: 5px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+label,input,button{
+display: block;
+margin-bottom: 10px;
+font-size: large;
+
+}
+input{
+width: 90%;
+padding: 10px;
+border: 1px solid black;
+border-radius: 5px;
+
+
+}
+button{
+background-color: blue;
+color: white;
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+.message{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sucess{
+background-color: #d4edda;
+color: #155724;
+
+}
+.error{
+background-color: #f8d7da;
+color: #721c24;
+
+}
